@@ -1,10 +1,16 @@
 {
-  "services": [
-    {
-      "name": "whoami",
-      "image": "traefik/whoami:v1.11.0",
-      "isMain": true,
-      "internalPort": "80"
+  "version": "3.8",
+  "services": {
+    "element": {
+      "image": "element-hq/element-web:latest",
+      "container_name": "element",
+      "environment": [
+        "MATRIX_HOMESERVER_URL=https://matrix.org"
+      ],
+      "ports": [
+        "644:80"
+      ],
+      "restart": "unless-stopped"
     }
-  ]
+  }
 }
