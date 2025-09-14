@@ -1,24 +1,21 @@
 {
-  "name": "Whoami",
-  "id": "whoami",
+  "name": "Element Web",
+  "id": "element-web",
   "available": true,
-  "short_desc": "Tiny Go server that prints os information and HTTP request to output.",
-  "author": "traefik",
-  "port": 8382,
-  "categories": [
-    "utilities"
-  ],
-  "description": "Tiny Go webserver that prints OS information and HTTP request to output.",
-  "tipi_version": 2,
-  "version": "v1.11.0",
-  "source": "https://github.com/traefik/whoami",
+  "short_desc": "Matrix web client",
+  "author": "element-hq",
+  "port": 644,
+  "categories": ["chat", "communication"],
+  "description": "Element is a secure and open-source Matrix client for the web.",
+  "tipi_version": 1,
+  "version": "latest",
+  "source": "https://github.com/vector-im/element-web",
+  "website": "https://element.io",
   "exposable": true,
-  "supported_architectures": [
-    "arm64",
-    "amd64"
-  ],
-  "created_at": 1745082405284,
-  "updated_at": 1745674974072,
   "dynamic_config": true,
-  "form_fields": []
+  "uid": 1000,
+  "gid": 1000,
+  "supported_architectures": ["amd64", "arm64"],
+  "created_at": 1691943801422,
+  "updated_at": 1729872794208
 }
