@@ -4,18 +4,17 @@
   "available": true,
   "short_desc": "Matrix web client",
   "author": "element-hq",
-  "port": 644,
+  "port": 8080,
   "categories": ["chat", "communication"],
   "description": "Element is a secure and open-source Matrix client for the web.",
-  "tipi_version": 1,
+  "tipi_version": 2,
   "version": "latest",
   "source": "https://github.com/vector-im/element-web",
   "website": "https://element.io",
   "exposable": true,
-  "dynamic_config": true,
-  "uid": 1000,
-  "gid": 1000,
   "supported_architectures": ["amd64", "arm64"],
   "created_at": 1691943801422,
-  "updated_at": 1729872794208
+  "updated_at": 1729872794208,
+  "dynamic_config": true,
+  "form_fields": []
 }
